@@ -69,8 +69,7 @@ class ClaudeOptimizer:
             "model": self.config.model,
             "messages": messages,
             "max_tokens": max_tokens or self.config.max_tokens,
-            "temperature": self.config.temperature,
-            "top_p": self.config.top_p
+            "temperature": self.config.temperature
         }
         
         if system:
